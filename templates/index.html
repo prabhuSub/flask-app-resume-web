@@ -57,7 +57,7 @@
 <div class="resume-container">
   <div class="shadow-1-strong bg-white my-5" id="intro">
     <div class="bg-info text-white">
-      <div class="cover bg-image"><img src="images/header-background.jpg"/>
+      <div class="cover bg-image"><img src="{{url_for('static',filename = 'images/header-background.jpg')}}"/>
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
           <div class="text-center p-5">
             <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="{{url_for('static',filename = 'images/avatar.jpg')}}" width="160" height="160"/></div>
@@ -250,7 +250,7 @@
     <div class="portfolio-section">
       <h2 class="h2 fw-light mb-4">Portfolio</h2>
       <div class="row g-0">
-        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="images/project-1.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="{{url_for('static',filename = 'images/project-1.jpg')}}" width="800" height="500"/></a></div>
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
           <div class="m-4 mt-md-2">
             <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
@@ -267,10 +267,10 @@
             <p class="text-muted">Web design for popular resturant chain involving complex layouts done in both Photoshop and Sketch. Collaborated with back-end and front-end team for finished product.</p>
           </div>
         </div>
-        <div class="col-md-6"><a href="https://www.behance.net/" target="_blank"><img class="img-fluid" src="images/project-2.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6"><a href="https://www.behance.net/" target="_blank"><img class="img-fluid" src="{{url_for('static',filename = 'images/project-2.jpg')}}" width="800" height="500"/></a></div>
       </div>
       <div class="row g-0">
-        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="images/project-3.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="{{url_for('static',filename = 'images/project-3.jpg')}}" width="800" height="500"/></a></div>
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
           <div class="m-4 mt-md-2">
             <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
@@ -287,7 +287,7 @@
       <div class="row"> 
         <div class="col-md-6">
           <div class="d-flex mb-2">
-            <div class="avatar"><img src="images/reference-image-1.jpg" width="60" height="60"/></div>
+            <div class="avatar"><img src="{{url_for('static',filename = 'images/reference-image-1.jpg')}}" width="60" height="60"/></div>
             <div class="header-bio m-3 mb-0">
               <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Aiyana</h3>
               <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CEO / Web Design Company</p>
@@ -299,7 +299,7 @@
         </div>
         <div class="col-md-6">
           <div class="d-flex mb-2">
-            <div class="avatar"><img src="images/reference-image-2.jpg" width="60" height="60"/></div>
+            <div class="avatar"><img src="{{url_for('static',filename = 'images/reference-image-2.jpg')}}" width="60" height="60"/></div>
             <div class="header-bio m-3 mb-0">
               <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Alexander</h3>
               <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Front-end Developer / Web Design Company</p>
