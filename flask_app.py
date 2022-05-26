@@ -4,7 +4,7 @@ import smtplib
 from email.message import EmailMessage
 app = Flask(__name__)
 
-app.config['SERVER_NAME'] = 'prabhu_resume:5000'
+# app.config['SERVER_NAME'] = 'prabhu_resume:5000'
 
 @app.route("/")
 def index():
