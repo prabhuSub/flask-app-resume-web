@@ -1,0 +1,305 @@
+ * Serving Flask app 'flask_app.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.25.129:5000 (Press CTRL+C to quit)
+136.24.107.99 - - [25/May/2022 07:08:01] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:08:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Serving Flask app 'flask_app.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.25.129:5000 (Press CTRL+C to quit)
+136.24.107.99 - - [25/May/2022 07:11:21] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:11:21] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:41] "GET / HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/css/font-awesome/css/all.min.css HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/css/mdb.min.css HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/css/main.css HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/css/aos.css HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/images/avatar.jpg HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/scripts/mdb.min.js HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/scripts/aos.js HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "GET /static/scripts/main.js HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:42] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:42] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:42] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:42] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 07:28:43] "GET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:43] "GET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 07:28:43] "GET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 -
+136.24.107.99 - - [25/May/2022 07:31:53] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:53] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:31:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:40:45] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 07:40:45] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:11] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:12] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:53:12] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:53:12] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:53:12] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:53:12] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:53:12] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:31] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:32] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:32] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:32] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:32] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:32] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:33] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [25/May/2022 08:56:33] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 15:22:17] "GET / HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 15:22:18] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 20:32:17] "GET / HTTP/1.1" 200 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+165.225.243.20 - - [25/May/2022 20:32:18] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+167.248.133.117 - - [25/May/2022 20:47:23] "GET / HTTP/1.1" 200 -
+167.248.133.117 - - [25/May/2022 20:47:33] code 505, message Invalid HTTP version (2.0)
+167.248.133.117 - - [25/May/2022 20:47:33] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+92.118.160.37 - - [25/May/2022 20:59:08] "GET / HTTP/1.0" 200 -
+198.235.24.5 - - [25/May/2022 21:12:51] "GET / HTTP/1.1" 200 -
+205.210.31.27 - - [25/May/2022 22:57:41] "GET / HTTP/1.0" 200 -
+35.87.158.151 - - [26/May/2022 03:23:39] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [26/May/2022 03:26:25] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:26:25] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+ * Serving Flask app 'flask_app.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'flask_app.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+136.24.107.99 - - [26/May/2022 03:27:24] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:27:25] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+ * Serving Flask app 'flask_app.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'flask_app.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.25.129:5000 (Press CTRL+C to quit)
+136.24.107.99 - - [26/May/2022 03:54:55] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:55] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:56] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 03:54:56] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:54:56] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:54:56] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:54:56] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 03:54:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 04:22:07] "GET / HTTP/1.1" 200 -
+136.24.107.99 - - [26/May/2022 04:22:07] "[36mGET /static/css/font-awesome/css/all.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:07] "[36mGET /static/css/aos.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:07] "[36mGET /static/scripts/mdb.min.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:07] "[36mGET /static/css/mdb.min.css HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:07] "[33mGET /images/header-background.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[36mGET /static/images/avatar.jpg HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[36mGET /static/css/font-awesome/webfonts/fa-brands-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[36mGET /static/css/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[36mGET /static/css/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[36mGET /static/scripts/aos.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[36mGET /static/scripts/main.js HTTP/1.1[0m" 304 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[33mGET /images/project-1.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[33mGET /images/project-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[33mGET /images/project-3.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[33mGET /images/reference-image-2.jpg HTTP/1.1[0m" 404 -
+136.24.107.99 - - [26/May/2022 04:22:08] "[33mGET /images/reference-image-1.jpg HTTP/1.1[0m" 404 -
