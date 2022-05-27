@@ -3,8 +3,7 @@ from email.mime.text import MIMEText
 import smtplib
 from email.message import EmailMessage
 app = Flask(__name__)
-
-# app.config['SERVER_NAME'] = 'prabhu_resume:5000'
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route("/")
 def index():
@@ -18,7 +17,7 @@ def sendemail():
         email = request.form['_replyto']
         message = request.form['message']
 
-        your_name = "Ayush Kalla"
+        your_name = "Prabhu Subramanian"
         your_email = "ayushkalla2050@gmail.com"
         your_password = "pASSWORD@25243912524391"
 
