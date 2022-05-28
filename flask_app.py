@@ -41,7 +41,7 @@ def sendemail():
 
         # Sender's and Receiver's email address
         sender_email =  "prabhus1652@gmail.com"
-        receiver_email = "prabhus165@gmail.com"
+        receiver_email = "subramanian.pr@northeastern.edu"
 
         msg = EmailMessage()
         msg.set_content("\n---- Resume Flaks APP Message ----\n"+"First Name : "+str(name)+"\nEmail : "+str(email)+"\nSubject : "+str(subject)+"\nMessage : "+str(message))
