@@ -1,7 +1,9 @@
-from flask import Flask, render_template, request, url_for, redirect
-from email.mime.text import MIMEText
+from flask import Flask, render_template, request, redirect
 import smtplib
 from email.message import EmailMessage
+import os
+
+
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
@@ -28,8 +30,8 @@ def sendemail():
         message = request.form['message']
 
         # your_name = "Prabhu Subramanian"
-        your_email = "prabhus1652@gmail.com"
-        your_password = "Sriram12"
+        your_email = os.environ['flask_resume_web_app_email']
+        your_password = os.environ['flask_resume_web_app_pass']
 
         # Logging in to our email account
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
@@ -38,7 +40,7 @@ def sendemail():
         server.login(your_email, your_password)
 
         # Sender's and Receiver's email address
-        sender_email = "prabhus1652@gmail.com"
+        sender_email =  "prabhus1652@gmail.com"
         receiver_email = "prabhus165@gmail.com"
 
         msg = EmailMessage()
