@@ -7,10 +7,20 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route("/")
 def index():
+    """this is to render index.html
+
+    Returns:
+        _type_: _description_
+    """
     return render_template("index.html")
 
 @app.route("/sendemail/", methods=['POST'])
 def sendemail():
+    """this is to use smtp of gmail to recieve emails form the users uing this email
+
+    Returns:
+        _type_: _description_
+    """
     if request.method == "POST":
         name = request.form['name']
         subject = request.form['Subject']
@@ -40,7 +50,7 @@ def sendemail():
         try:
             # sending an email
             server.send_message(msg)
-        except:
+        except Exception as e:
             pass
     return redirect('/')
 
