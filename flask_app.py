@@ -17,9 +17,9 @@ def sendemail():
         email = request.form['_replyto']
         message = request.form['message']
 
-        your_name = "Prabhu Subramanian"
-        your_email = "ayushkalla2050@gmail.com"
-        your_password = "pASSWORD@25243912524391"
+        # your_name = "Prabhu Subramanian"
+        your_email = "prabhus1652@gmail.com"
+        your_password = "Sriram12"
 
         # Logging in to our email account
         server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -28,11 +28,11 @@ def sendemail():
         server.login(your_email, your_password)
 
         # Sender's and Receiver's email address
-        sender_email = "ayushkalla2050@gmail.com"
-        receiver_email = "akalla@stevens.edu"
+        sender_email = "prabhus1652@gmail.com"
+        receiver_email = "prabhus165@gmail.com"
 
         msg = EmailMessage()
-        msg.set_content("First Name : "+str(name)+"\nEmail : "+str(email)+"\nSubject : "+str(subject)+"\nMessage : "+str(message))
+        msg.set_content("\n---- Resume Flaks APP Message ----"+"First Name : "+str(name)+"\nEmail : "+str(email)+"\nSubject : "+str(subject)+"\nMessage : "+str(message))
         msg['Subject'] = 'New Response on Personal Website'
         msg['From'] = sender_email
         msg['To'] = receiver_email
@@ -42,7 +42,7 @@ def sendemail():
             server.send_message(msg)
         except:
             pass
-    return redirect('/');
+    return redirect('/')
 
 if __name__ == "__main__":
     app.run(debug=True)
