@@ -32,7 +32,7 @@ def sendemail():
         receiver_email = "prabhus165@gmail.com"
 
         msg = EmailMessage()
-        msg.set_content("\n---- Resume Flaks APP Message ----"+"First Name : "+str(name)+"\nEmail : "+str(email)+"\nSubject : "+str(subject)+"\nMessage : "+str(message))
+        msg.set_content("\n---- Resume Flaks APP Message ----\n"+"First Name : "+str(name)+"\nEmail : "+str(email)+"\nSubject : "+str(subject)+"\nMessage : "+str(message))
         msg['Subject'] = 'New Response on Personal Website'
         msg['From'] = sender_email
         msg['To'] = receiver_email
