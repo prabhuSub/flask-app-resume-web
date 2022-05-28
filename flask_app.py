@@ -22,9 +22,9 @@ def sendemail():
         your_password = "Sriram12"
 
         # Logging in to our email account
-        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.ehlo()
-        server.starttls()
+        # server.starttls()
         server.login(your_email, your_password)
 
         # Sender's and Receiver's email address
