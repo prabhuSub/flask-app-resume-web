@@ -70,4 +70,4 @@ def sendemail():
     return redirect('/')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80, debug=True, ssl_context=("prabhuresume.com_ssl_certificate.cer","_.prabhuresume.com_private_key.key"))
+    app.run(host="0.0.0.0", port=80, debug=True)
