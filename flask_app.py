@@ -2,10 +2,10 @@ from flask import Flask, render_template, request, redirect
 import smtplib
 from email.message import EmailMessage
 import os
-from OpenSSL import SSL
-context = SSL.Context(SSL.PROTOCOL_TLSv1_2)
-context.use_privatekey_file('_.prabhuresume.com_private_key.key')
-context.use_certificate_file('prabhuresume.com_ssl_certificate.cer')   
+# import SSL
+# context = SSL.Context(SSL.PROTOCOL_TLSv1_2)
+# context.use_privatekey_file('_.prabhuresume.com_private_key.key')
+# context.use_certificate_file('prabhuresume.com_ssl_certificate.cer')   
 
 from sympy import content
 
@@ -70,4 +70,4 @@ def sendemail():
     return redirect('/')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80, debug=True, ssl_context=context)
+    app.run(host="0.0.0.0", port=80, debug=True, ssl_context=("prabhuresume.com_ssl_certificate.cer","_.prabhuresume.com_private_key.key"))
