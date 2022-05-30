@@ -1,0 +1,8 @@
+- name: Domain and SSL cert watcher
+  # You may pin to the exact commit or the version.
+  # uses: codex-team/action-check-domain@f01efda3949e9dc02364635ce0798c469aa99be7
+  uses: codex-team/action-check-domain@v1.2
+  with:
+    # Site domain to be checked (with protocol)
+    url: 
+    http://prabhuresume.com/
