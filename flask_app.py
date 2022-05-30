@@ -2,7 +2,12 @@ from flask import Flask, render_template, request, redirect
 import smtplib
 from email.message import EmailMessage
 import os
-import json
+from OpenSSL import SSL
+context = SSL.Context(SSL.PROTOCOL_TLSv1_2)
+context.use_privatekey_file('_.prabhuresume.com_private_key.key')
+context.use_certificate_file('prabhuresume.com_ssl_certificate.cer')   
+
+from sympy import content
 
 # vistor_count_file = open("static/vistor_count.json", "r")
 # count_object = json.load(vistor_count_file)
@@ -65,4 +70,4 @@ def sendemail():
     return redirect('/')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80, debug=True)
+    app.run(host="0.0.0.0", port=80, debug=True, ssl_context=context)
