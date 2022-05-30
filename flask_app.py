@@ -2,7 +2,15 @@ from flask import Flask, render_template, request, redirect
 import smtplib
 from email.message import EmailMessage
 import os
+import json
 
+vistor_count_file = open("static/vistor_count.json", "r")
+count_object = json.load(vistor_count_file)
+count_object["visitor_count"] = count_object["visitor_count"] + 1
+current_visitor_count = count_object["visitor_count"]
+vistor_count_file = open("static/vistor_count.json", "w")
+json.dump(count_object, vistor_count_file)
+vistor_count_file.close()
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
@@ -57,4 +65,4 @@ def sendemail():
     return redirect('/')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=80, debug=True)
